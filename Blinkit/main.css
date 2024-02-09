@@ -1,0 +1,139 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Okra', Helvetica;
+}
+/* nav starts */
+#nav{
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    border-bottom: 0.5px solid rgb(237, 231, 231);
+    z-index: 11111111;
+}
+#sub-nav{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height:inherit;
+    background-color: white;
+    border-bottom: 0.5px solid rgb(237, 231, 231);
+    
+}
+#sub-nav>span:nth-child(3)>input{
+width: 500px;
+height: 40px;
+border-radius: 5px;
+padding-left:30px;
+border: none;
+background-color: rgb(254, 250, 250);
+}
+#sub-nav>span:nth-child(3)>i{
+    position: absolute;
+    top: 23px;
+    left: 514px;
+}
+#sub-nav>span:nth-child(2)>.btn-group>.btn {
+    font-size: 15px;
+    height: 50px;
+}
+#sub-nav>span:nth-child(4){
+    font-size: 20px;
+}
+#sub-nav>span:last-of-type>button{
+height: 50px;
+width: 100px;
+border: none;
+border-radius: 8px;
+background-color:  rgb(12, 131, 31);
+font-weight: bold;
+color: white;
+}
+/* nav ends */
+/* banner starts */
+#banner{
+    background-image: url("./assets/Group-33704.webp");
+    height: 300px;
+    width: 98%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#order-now>ol{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 80%;
+list-style: none;
+}
+#order-now>ol>li>img{
+    height: 200px;
+    width: 320px;
+}
+/* items start */
+#items>ol{
+    display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+list-style: none;
+}
+#items>ol>li>img{
+    height: 200px;
+    width: 120px;
+}
+#items1>ol{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+#items1>ol>li>img{
+    height: 200px;
+    width: 120px;
+}
+/* items end */
+#cards1>ol{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+#cards1>ol>li>.card{
+    height: 310px;
+    background-color: white;
+    box-shadow: 0.9px 0.6px 0.8px rgb(132, 131, 131);
+}
+#cards1>ol>li>.card>img{
+    height: 130px;
+    width: 160px;
+}
+#cards1>ol>li{
+    list-style: none;
+}
+#cards1>ol>li>.card>.card-body>button{
+    font-size: 11px;
+    border: none;
+    font-weight: bold;
+}
+#cards1>ol>li>.card>.card-body>p:first-of-type{
+    font-size: 12px;
+    font-weight:600;
+}
+#cards1>ol>li>.card>.card-body>p:last-of-type{
+    font-size: 12px;
+}
+#cards1>ol>li>.card>.card-body>p:nth-child(3){
+    font-size: 13px;
+    color: gray;
+}
+#cards1>ol>li>.card>.card-body>p:last-of-type>.btn{
+    width: 70px;
+    height: 10px;
+    border: 1px solid rgb(49, 134, 22);
+    color: rgb(49, 134, 22);
+    padding-bottom: 30px;
+}
